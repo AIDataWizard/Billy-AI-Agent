@@ -8,3 +8,8 @@ pydantic
 fastapi
 uvicorn
 python-multipart
+fastapi
+gunicorn
+paddleocr
+paddlepaddle
+PyMuPDF
