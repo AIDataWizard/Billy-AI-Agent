@@ -1,25 +1,34 @@
-# Use Python image
+# Base image
 FROM python:3.10-slim
 
-# Set working directory
-WORKDIR /app
+# Prevent interactive prompts
+ENV DEBIAN_FRONTEND=noninteractive
 
-# Install OS packages for OCR (PaddleOCR deps)
+# Install system packages needed by PaddleOCR & OpenCV
 RUN apt-get update && apt-get install -y \
-    libglib2.0-0 libsm6 libxrender1 libxext6 poppler-utils \
+    libgl1-mesa-glx \
+    libglib2.0-0 \
+    libsm6 \
+    libxrender1 \
+    libxext6 \
+    poppler-utils \
+    ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
-# Copy requirement file
+# Set working dir
+WORKDIR /app
+
+# Copy requirements
 COPY requirements.txt .
 
-# Install Python deps
+# Install python deps
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
+# Copy project
 COPY . .
 
 # Expose port
 EXPOSE 8000
 
-# Run the app using gunicorn + uvicorn worker
-CMD ["gunicorn", "-w", "4", "-k", "uvicorn.workers.UvicornWorker", "api.main:app", "--bind", "0.0.0.0:8000"]
+# Start API with gunicorn + uvicorn worker
+CMD ["gunicorn", "-w", "2", "-k", "uvicorn.workers.UvicornWorker", "api.main:app", "--bind", "0.0.0.0:8000"]
