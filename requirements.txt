@@ -6,8 +6,7 @@ pydantic
 groq
 PyMuPDF
 pdfplumber
+pytesseract
 python-multipart
-easyocr
-numpy
-pandas
 Pillow
+numpy
