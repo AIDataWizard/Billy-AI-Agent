@@ -54,21 +54,21 @@ FROM python:3.10-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Install Tesseract + PDF + required image libs
+# Install Tesseract + PDF libs
 RUN apt-get update && apt-get install -y \
     tesseract-ocr \
     tesseract-ocr-eng \
     poppler-utils \
     libjpeg62-turbo \
     libpng16-16 \
-    libtiff5 \
+    libtiff-tools \
     libglib2.0-0 \
     libsm6 \
     libxrender1 \
     libxext6 \
     && rm -rf /var/lib/apt/lists/*
 
-# Tell Tesseract where language models are stored
+# Tesseract data location
 ENV TESSDATA_PREFIX=/usr/share/tesseract-ocr/4.00/tessdata/
 
 WORKDIR /app
