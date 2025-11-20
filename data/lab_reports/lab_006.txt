@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Kenneth Huynh
+    Test: Complete Blood Count
+    WBC: 5.6
+    RBC: 5.4
+    Hemoglobin: 16.5 g/dL
+    Notes: Must wall enjoy word.
+    

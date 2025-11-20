@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Jeremy Grimes
+    DOB: 1990-08-11
+    Provider: Moore-Mayo
+    ICD-10: M54.5 - Low back pain
+    CPT: 93000 - Electrocardiogram
+    Insurance: Medicare
+    Charge: $284
+    

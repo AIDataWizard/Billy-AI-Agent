@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Jacqueline Perez
+    Test: Complete Blood Count
+    WBC: 10.2
+    RBC: 4.8
+    Hemoglobin: 16.1 g/dL
+    Notes: Agree card face huge.
+    

@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Amanda Moreno
+    DOB: 1915-11-16
+    Provider: Coleman and Sons
+    ICD-10: J18.9 - Pneumonia, unspecified organism
+    CPT: 71045 - Chest X-ray, single view
+    Insurance: Medicare
+    Charge: $92
+    

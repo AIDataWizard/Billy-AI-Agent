@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Katherine Williams
+    Test: Complete Blood Count
+    WBC: 11.6
+    RBC: 5.6
+    Hemoglobin: 13.9 g/dL
+    Notes: Trouble fine onto activity it ahead situation.
+    

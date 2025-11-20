@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Jessica Rhodes
+    Test: Complete Blood Count
+    WBC: 10.3
+    RBC: 5.6
+    Hemoglobin: 13.7 g/dL
+    Notes: Huge arm senior country yard yeah music.
+    

@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Melissa Diaz
+    DOB: 1935-03-24
+    Provider: Carr-Meyers
+    ICD-10: J18.9 - Pneumonia, unspecified organism
+    CPT: 80050 - General Health Panel
+    Insurance: Medicare
+    Charge: $189
+    

@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Donald Perry
+    Test: Complete Blood Count
+    WBC: 10.9
+    RBC: 3.5
+    Hemoglobin: 16.6 g/dL
+    Notes: Sound age yet plant.
+    

@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Christian Williams
+    DOB: 1920-11-15
+    Provider: Proctor, Villanueva and Lester
+    ICD-10: E11.9 - Type 2 diabetes mellitus
+    CPT: 87502 - Influenza test
+    Insurance: Medicare
+    Charge: $178
+    

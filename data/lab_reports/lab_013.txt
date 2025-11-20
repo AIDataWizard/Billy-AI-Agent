@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Erica Phillips
+    Test: Complete Blood Count
+    WBC: 10.5
+    RBC: 4.5
+    Hemoglobin: 15.4 g/dL
+    Notes: Old again account subject.
+    

@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Natalie Shaw
+    Test: Complete Blood Count
+    WBC: 5.5
+    RBC: 3.6
+    Hemoglobin: 17.0 g/dL
+    Notes: Book player accept final head series.
+    

@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Abigail Valencia
+    Test: Complete Blood Count
+    WBC: 4.7
+    RBC: 4.3
+    Hemoglobin: 10.6 g/dL
+    Notes: Identify ball energy support office run per.
+    

@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Anthony Black
+    DOB: 1931-11-28
+    Provider: Davis, Mack and White
+    ICD-10: J18.9 - Pneumonia, unspecified organism
+    CPT: 87502 - Influenza test
+    Insurance: Medicare
+    Charge: $208
+    

@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Edwin Perez
+    Test: Complete Blood Count
+    WBC: 9.5
+    RBC: 3.5
+    Hemoglobin: 11.8 g/dL
+    Notes: Child individual relate trade thought.
+    

@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Sherri Gonzalez
+    DOB: 1944-10-22
+    Provider: King-Mays
+    ICD-10: E11.9 - Type 2 diabetes mellitus
+    CPT: 71045 - Chest X-ray, single view
+    Insurance: Medicare
+    Charge: $156
+    

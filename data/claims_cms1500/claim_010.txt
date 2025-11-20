@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Troy Jackson
+    DOB: 1911-08-17
+    Provider: Hill-Crawford
+    ICD-10: E11.9 - Type 2 diabetes mellitus
+    CPT: 99213 - Office Visit, established
+    Insurance: Medicare
+    Charge: $208
+    

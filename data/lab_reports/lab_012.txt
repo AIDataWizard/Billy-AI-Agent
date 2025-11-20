@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Morgan Mcdowell
+    Test: Complete Blood Count
+    WBC: 5.5
+    RBC: 5.0
+    Hemoglobin: 13.8 g/dL
+    Notes: Area toward Congress matter.
+    

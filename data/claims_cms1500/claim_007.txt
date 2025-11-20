@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Jordan Hawkins
+    DOB: 2003-05-01
+    Provider: Warren Ltd
+    ICD-10: I10 - Essential (primary) hypertension
+    CPT: 71045 - Chest X-ray, single view
+    Insurance: Medicare
+    Charge: $170
+    

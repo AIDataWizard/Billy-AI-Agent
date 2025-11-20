@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Patricia Bryant
+    Test: Complete Blood Count
+    WBC: 6.0
+    RBC: 5.9
+    Hemoglobin: 15.4 g/dL
+    Notes: Sign get popular some prevent detail or.
+    

@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Brittany Abbott
+    Test: Complete Blood Count
+    WBC: 14.0
+    RBC: 4.4
+    Hemoglobin: 14.3 g/dL
+    Notes: Chair job opportunity son.
+    

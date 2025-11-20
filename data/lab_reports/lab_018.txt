@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: John Ballard
+    Test: Complete Blood Count
+    WBC: 7.1
+    RBC: 4.4
+    Hemoglobin: 16.4 g/dL
+    Notes: Option compare avoid learn degree however avoid party.
+    

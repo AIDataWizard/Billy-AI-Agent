@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Daniel Lewis
+    DOB: 1997-07-28
+    Provider: Vasquez and Sons
+    ICD-10: J18.9 - Pneumonia, unspecified organism
+    CPT: 87502 - Influenza test
+    Insurance: Medicare
+    Charge: $166
+    

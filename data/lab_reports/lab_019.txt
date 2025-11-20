@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Brooke Mckay
+    Test: Complete Blood Count
+    WBC: 10.1
+    RBC: 5.1
+    Hemoglobin: 16.2 g/dL
+    Notes: Choose Mrs call expect none production.
+    

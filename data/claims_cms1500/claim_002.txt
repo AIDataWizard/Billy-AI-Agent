@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: John Williams
+    DOB: 1922-09-14
+    Provider: Foster, Flores and Gibbs
+    ICD-10: R07.9 - Chest pain, unspecified
+    CPT: 99213 - Office Visit, established
+    Insurance: Medicare
+    Charge: $261
+    

@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Mrs. Kelsey Burton
+    DOB: 1975-06-23
+    Provider: Humphrey-Butler
+    ICD-10: J18.9 - Pneumonia, unspecified organism
+    CPT: 80050 - General Health Panel
+    Insurance: Medicare
+    Charge: $81
+    

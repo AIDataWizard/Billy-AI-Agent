@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Philip Cox II
+    Test: Complete Blood Count
+    WBC: 13.8
+    RBC: 3.8
+    Hemoglobin: 16.1 g/dL
+    Notes: Mind issue dark rock.
+    

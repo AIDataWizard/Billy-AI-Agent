@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Kevin Fernandez
+    DOB: 1924-02-15
+    Provider: Moore Inc
+    ICD-10: I10 - Essential (primary) hypertension
+    CPT: 99213 - Office Visit, established
+    Insurance: Medicare
+    Charge: $249
+    

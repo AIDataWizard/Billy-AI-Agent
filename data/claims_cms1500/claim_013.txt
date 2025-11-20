@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Rebecca Gould
+    DOB: 1921-05-09
+    Provider: Conley, Hansen and Randolph
+    ICD-10: R07.9 - Chest pain, unspecified
+    CPT: 93000 - Electrocardiogram
+    Insurance: Medicare
+    Charge: $88
+    

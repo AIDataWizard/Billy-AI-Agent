@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Dawn Morgan
+    Test: Complete Blood Count
+    WBC: 11.9
+    RBC: 5.9
+    Hemoglobin: 16.6 g/dL
+    Notes: Sister apply near.
+    

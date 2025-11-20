@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Ian Townsend
+    Test: Complete Blood Count
+    WBC: 8.4
+    RBC: 5.7
+    Hemoglobin: 13.0 g/dL
+    Notes: Tree moment shoulder answer out piece.
+    

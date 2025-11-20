@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Antonio Obrien
+    Test: Complete Blood Count
+    WBC: 6.6
+    RBC: 5.1
+    Hemoglobin: 10.9 g/dL
+    Notes: Hundred cut recently stand rather.
+    

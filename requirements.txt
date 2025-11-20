@@ -1,0 +1,10 @@
+groq
+python-dotenv
+pandas
+numpy
+pytesseract
+pdfplumber
+pydantic
+fastapi
+uvicorn
+python-multipart

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billy - Medical Invoice AI Agent</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #3b82f6; }
+        .container {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 600px;
+            margin: auto;
+        }
+        textarea {
+            width: 100%;
+            height: 400px;
+            font-family: monospace;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Billy – AI Medical Invoice Processor</h1>
+    <p>Upload a PDF medical invoice and Billy will extract, validate, and audit it.</p>
+
+    <form action="/ui/full-pipeline" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept="application/pdf">
+        <br><br>
+        <button type="submit">Analyze Invoice</button>
+    </form>
+
+    {% if result %}
+    <h2>Result:</h2>
+    <textarea readonly>{{ result }}</textarea>
+    {% endif %}
+</div>
+
+</body>
+</html>

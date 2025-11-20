@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: Dominique Hernandez
+    Test: Complete Blood Count
+    WBC: 4.2
+    RBC: 4.0
+    Hemoglobin: 16.4 g/dL
+    Notes: Agency air executive record world shoulder.
+    

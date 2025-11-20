@@ -1,0 +1,9 @@
+
+    LAB REPORT
+    Patient: James Cross
+    Test: Complete Blood Count
+    WBC: 11.9
+    RBC: 3.7
+    Hemoglobin: 14.4 g/dL
+    Notes: Sometimes before current.
+    

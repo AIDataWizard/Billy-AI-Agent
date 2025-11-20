@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Devon Wilson
+    DOB: 2010-07-04
+    Provider: Sanchez, Lewis and Padilla
+    ICD-10: E11.9 - Type 2 diabetes mellitus
+    CPT: 99213 - Office Visit, established
+    Insurance: Medicare
+    Charge: $111
+    

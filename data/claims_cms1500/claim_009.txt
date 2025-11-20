@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Karen Sanchez
+    DOB: 1987-09-17
+    Provider: Newman-Thompson
+    ICD-10: I10 - Essential (primary) hypertension
+    CPT: 99213 - Office Visit, established
+    Insurance: Medicare
+    Charge: $98
+    

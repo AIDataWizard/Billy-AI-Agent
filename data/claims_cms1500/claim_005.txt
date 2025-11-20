@@ -1,0 +1,10 @@
+
+    CMS-1500 CLAIM
+    Patient: Shannon Miller
+    DOB: 1992-10-31
+    Provider: Hess, Jensen and Miller
+    ICD-10: J18.9 - Pneumonia, unspecified organism
+    CPT: 99213 - Office Visit, established
+    Insurance: Medicare
+    Charge: $204
+    
