@@ -192,6 +192,13 @@ import uvicorn
 app = FastAPI(title="Billy - AI Medical Invoice & Claims Agent")
 templates = Jinja2Templates(directory="api/templates")
 
+# HTTPS redirect
+from starlette.middleware.httpsredirect import HTTPSRedirectMiddleware
+app.add_middleware(HTTPSRedirectMiddleware)
+
+@app.get("/health")
+async def health():
+    return {"status": "ok"}
 
 # -----------------------------------------------------
 # Helper function (PDF → text → OCR fallback)
@@ -219,6 +226,8 @@ def extract_text_from_pdf(file_bytes: bytes):
 # -----------------------------------------------------
 # OCR endpoint (simple extraction)
 # -----------------------------------------------------
+
+
 @app.post("/extract_text/")
 async def extract_text_endpoint(file: UploadFile = File(...)):
     file_bytes = await file.read()

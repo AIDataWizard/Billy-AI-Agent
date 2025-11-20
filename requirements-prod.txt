@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+gunicorn
+jinja2
+python-dotenv
+pydantic
+groq
+PyMuPDF
+pdfplumber
+pytesseract
+python-multipart
+Pillow
+numpy

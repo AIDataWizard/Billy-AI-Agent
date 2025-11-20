@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node
+node_modules/
+*.tsbuildinfo
+
+# Data folders (DO NOT SHIP TO DOCKER)
+data/
+outputs/
+samples/
+tests/
+
+# PDF + images (optional)
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+# Cache
+.cache/
