@@ -1,13 +1,23 @@
+# fastapi
+# uvicorn
+# gunicorn
+# python-dotenv
+# pydantic
+# groq
+# PyMuPDF
+# pdfplumber
+# pytesseract
+# python-multipart
+# Pillow
+# numpy
+# jinja2
+
 fastapi
 uvicorn
 gunicorn
-python-dotenv
-pydantic
-groq
-PyMuPDF
-pdfplumber
-pytesseract
 python-multipart
-Pillow
-numpy
-jinja2
+python-dotenv
+requests
+pdfplumber
+pymupdf==1.23.26
+groq
