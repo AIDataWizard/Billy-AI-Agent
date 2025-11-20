@@ -1,26 +1,18 @@
-from paddleocr import PaddleOCR
-import pdf2image
+import io
 import numpy as np
+import easyocr
+from PIL import Image
 
-# Initialize once (fast)
-ocr = PaddleOCR(lang='en', use_angle_cls=True)
+# Initialize OCR reader once (CPU mode)
+reader = easyocr.Reader(['en'], gpu=False)
 
-def ocr_extract(pdf_path):
-    try:
-        images = pdf2image.convert_from_path(pdf_path)
-        full_text = ""
+def ocr_extract(file_bytes: bytes):
+    """
+    Extracts text from an image or PDF using EasyOCR.
+    Works on Render Free Tier (no PaddleOCR dependencies)
+    """
+    image = Image.open(io.BytesIO(file_bytes)).convert("RGB")
+    arr = np.array(image)
+    text_results = reader.readtext(arr, detail=0)
+    return "\n".join(text_results)
 
-        for img in images:
-            img_np = np.array(img)
-            result = ocr.ocr(img_np, cls=True)
-
-            for line in result:
-                for word_info in line:
-                    full_text += word_info[1][0] + " "
-
-            full_text += "\n"
-
-        return full_text.strip()
-
-    except Exception as e:
-        return f"OCR error: {e}"

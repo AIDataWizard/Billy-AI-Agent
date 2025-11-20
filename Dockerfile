@@ -1,12 +1,11 @@
 # Base image
 FROM python:3.10-slim
 
-# Prevent interactive prompts
+# Avoid interactive prompts
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Install system packages needed by PaddleOCR & OpenCV
+# Install system packages needed by EasyOCR
 RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \
     libglib2.0-0 \
     libsm6 \
     libxrender1 \
@@ -15,20 +14,18 @@ RUN apt-get update && apt-get install -y \
     ffmpeg \
     && rm -rf /var/lib/apt/lists/*
 
-# Set working dir
+# Set working directory
 WORKDIR /app
 
-# Copy requirements
+# Copy and install dependencies
 COPY requirements.txt .
-
-# Install python deps
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project
+# Copy project files
 COPY . .
 
 # Expose port
 EXPOSE 8000
 
-# Start API with gunicorn + uvicorn worker
+# Start API using gunicorn + uvicorn worker
 CMD ["gunicorn", "-w", "2", "-k", "uvicorn.workers.UvicornWorker", "api.main:app", "--bind", "0.0.0.0:8000"]
